@@ -1,2 +1,2 @@
 # PL-0-Compiler
-A compiler written in c for the PL/0 programming language
+A compiler written in c for the PL/0 programming language. Includes both a lexical analyzer and a parser along with a virtual machine to run the code given to it. It can take in any PL/0 code through a command line argument like: ./a.out code.txt. It will read the code, tokenize it, parse it, translate into assembly, and finally run the code given to it. Upon completion it will print out the full lexeme table, token list, symbol table, and assembly code as well as  a printout of the VM execution as output.
